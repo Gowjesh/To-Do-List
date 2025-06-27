@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List with Color Themes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="theme-switcher">
+    <span>🎨 Change Theme:</span>
+    <button class="color-button" onclick="changeTheme('#ffffff', '#f2f2f2', '#000')" style="background:#ffffff;"></button>
+    <button class="color-button" onclick="changeTheme('#e3f2fd', '#bbdefb', '#000')" style="background:#e3f2fd;"></button>
+    <button class="color-button" onclick="changeTheme('#f1f8e9', '#dcedc8', '#000')" style="background:#f1f8e9;"></button>
+    <button class="color-button" onclick="changeTheme('#fff3e0', '#ffe0b2', '#000')" style="background:#fff3e0;"></button>
+    <button class="color-button" onclick="changeTheme('#fce4ec', '#f8bbd0', '#000')" style="background:#fce4ec;"></button>
+    <button class="color-button" onclick="changeTheme('#000000', '#2c2c2c', '#ffffff')" style="background:#000000;"></button>
+  </div>
+
+  <div id="todobox">
+    <h2>📝 To-Do List</h2>
+    <input type="text" id="taskinput" placeholder="Enter task" />
+    <input type="file" id="imgfile" accept="image/*" />
+    <img id="preview" alt="Preview" />
+
+    <div class="controls">
+      <button id="addtask">Add Task</button>
+      <label>
+        <span>Select All</span>
+        <input type="checkbox" id="selectall" />
+      </label>
+      <button id="deleteselected">Delete Selected</button>
+    </div>
+
+    <ol id="tasklist"></ol>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
