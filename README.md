@@ -9,7 +9,7 @@ A simple and responsive To-Do List web application built using HTML, CSS, and Ja
 - Delete tasks
 - Responsive design for mobile and desktop
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── index.html      # Main HTML file
