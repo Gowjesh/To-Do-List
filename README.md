@@ -54,8 +54,3 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 ## License
 
 This project is licensed under the MIT License.
-
-
-```
-
-Let me know if you'd like to customize it further—like adding badges, links, or instructions for deploying it online.
