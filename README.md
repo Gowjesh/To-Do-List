@@ -48,10 +48,3 @@ A simple and responsive To-Do List web application built using HTML, CSS, and Ja
 - Click the checkbox to mark it as done.
 - Click the trash icon to delete a task.
 
-## Contributing
-
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
